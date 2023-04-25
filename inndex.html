@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filterable gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--header-->
+  <h2>COFFEE GUIDE</h2>
+<!--/header-->
+
+<div class="container">
+        <!--buttons-->
+
+            <div class="buttons">
+                <button onclick="filterSelection('all')">All</button>
+                <button onclick="filterSelection('hot')">HOT</button>
+                <button onclick="filterSelection('cold')">COLD</button>
+                <button onclick="filterSelection('fav')">FAV</button>
+            </div>
+
+        <!--/buttons-->
+
+        <!--gallery-->
+
+            <div class="gallery">
+                <img src="images/cappucino.avif" class="hot" alt="">
+                <img src="images/ice-americano.avif" class="cold" alt="">
+                <img src="images/latte-macchiato.avif" class="hot fav" alt="">
+                <img src="images/ice-cappucino.avif" class="cold" alt="">
+            </div>
+            
+        <!--/gallery-->
+        
+</div>
+
+<script src="javasc.js"></script>
+
+</body>
+</html>
